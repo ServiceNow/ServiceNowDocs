@@ -7,7 +7,7 @@ release: zurich
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Producer Event Notification Framework developer guide, Developer guides, API implementation and reference]
 ---

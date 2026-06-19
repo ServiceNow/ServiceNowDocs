@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---

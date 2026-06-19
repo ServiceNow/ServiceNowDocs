@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---

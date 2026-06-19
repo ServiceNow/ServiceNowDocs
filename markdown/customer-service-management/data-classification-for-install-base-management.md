@@ -7,7 +7,7 @@ release: zurich
 product: Customer Service Management
 classification: customer-service-management
 topic_type: reference
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---

@@ -7,7 +7,7 @@ release: zurich
 product: Edge Encryption
 classification: edge-encryption
 topic_type: concept
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
 breadcrumb: [Encryption rule objects and APIs, Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---

@@ -7,7 +7,7 @@ release: zurich
 product: Operational Sustainability Management
 classification: operational-sustainability-management
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

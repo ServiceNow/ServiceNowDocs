@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-06-18"
+last_updated: "2026-06-19"
 reading_time_minutes: 1
 breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
